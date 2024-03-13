@@ -1,0 +1,6 @@
+windows - Preferences - Colors and Fonts (font만쳐도 나옴) - Basic 맨아래 Text Font D2coding으로
+
+windows - Preferences - General - Show heap status 체크
+
+windows - Preferences - General - Workspace - 아래에 Text file encoding 에 Other : UTF-8확인
+맨위에 Refresh using native hooks or polling 체크
