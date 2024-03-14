@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>driver.xml file!!!</comment>
+	<!-- comment 없애도 됨 -->
+	<!-- 마크업 언어 주석 -->
+	<!-- ctrl + shift + / -->
+
+	<!-- entry : K:V 한 쌍 -->
+	<entry key="driver">oracle.jdbc.driver.OracleDriver</entry>
+	
+	<entry key="url">jdbc:oracle:thin:@localhost:1521:XE</entry>
+	
+	<entry key="user">kh_lhg</entry>
+
+	<entry key="password">kh1234</entry>
+	<!-- 자바클래스에서 유저정보를바꾸면 컴파일을 다시해야하지만 -->
+	<!-- .xml에서 정보를 바꾸면 따로 컴파일을 안한다 -->
+
+</properties>

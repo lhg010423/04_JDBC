@@ -1,0 +1,40 @@
+프로젝트명 : EmployeeManagement
+
+Run : edu.kh.emp.run.EmployeeRun
+View : edu.kh.emp.view.EmployeeView
+Service : edu.kh.emp.model.service.EmployeeService
+DAO : edu.kh.emp.model.dao.EmployeeDAO
+VO : edu.kh.emp.model.vo.Employee
+
+edu.kh.emp.common.JDBCTemplate
+edu.kh.emp.common.CreateXMLFile
+
+driver.xml
+query.xml
+
+----------------------------------------------------------
+Employee VO 필드
+
+
+private int empId;  // 사원 번호
+	private String empName; // 이름
+	private String empNo; // 주민등록번호
+	private String email; // 이메일
+	private String phone;  // 전화번호
+	private String departmentTitle; // 부서명
+	private String jobName; // 직급명
+	private int salary; //급여
+	
+	private String deptCode; // 부서코드
+	private String jobCode; // 직급코드
+	private String salLevel; // 급여등급
+	private double bonus; // 보너스
+	private int managerId; // 사수번호
+
+
+매개변수 생성자 2개만들어야함
+사원번호 ~ 급여
+사원번호 ~ 사수번호
+
+getter/setter
+toString() 오버라이딩
