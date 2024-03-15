@@ -1,6 +1,5 @@
 package edu.kh.emp.model.vo;
 
-// VO : 값 저장용 객체 (== DB 조회 결과 한 행을 저장)
 public class Employee {
 	private int empId;  // 사원 번호
 	private String empName; // 이름
@@ -18,20 +17,7 @@ public class Employee {
 	private int managerId; // 사수번호
 	
 	
-	public Employee(String departmentTitle, int salary) {
-		super();
-		this.departmentTitle = departmentTitle;
-		this.salary = salary;
-	}
-	
-	public Employee(String jobName, double salary) {
-		super();
-		this.jobName = jobName;
-		this.salary = (int)salary;
-	}
-
-
-	
+	public Employee() {}
 
 	public Employee(int empId, String empName, String empNo, String email, String phone, String departmentTitle,
 			String jobName, int salary) {
@@ -46,16 +32,16 @@ public class Employee {
 		this.salary = salary;
 	}
 
-	
-	
-	public Employee(int empId, String empName, String empNo, String email, String phone, int salary, String deptCode,
-			String jobCode, String salLevel, double bonus, int managerId) {
+	public Employee(int empId, String empName, String empNo, String email, String phone, String departmentTitle,
+			String jobName, int salary, String deptCode, String jobCode, String salLevel, double bonus, int managerId) {
 		super();
 		this.empId = empId;
 		this.empName = empName;
 		this.empNo = empNo;
 		this.email = email;
 		this.phone = phone;
+		this.departmentTitle = departmentTitle;
+		this.jobName = jobName;
 		this.salary = salary;
 		this.deptCode = deptCode;
 		this.jobCode = jobCode;
@@ -64,145 +50,112 @@ public class Employee {
 		this.managerId = managerId;
 	}
 
-
-
-
-	public Employee() {
-		// TODO Auto-generated constructor stub
-	}
-
-
-
-
+	
+	
+	
 	public int getEmpId() {
 		return empId;
 	}
-
 
 	public void setEmpId(int empId) {
 		this.empId = empId;
 	}
 
-
 	public String getEmpName() {
 		return empName;
 	}
-
 
 	public void setEmpName(String empName) {
 		this.empName = empName;
 	}
 
-
 	public String getEmpNo() {
 		return empNo;
 	}
-
 
 	public void setEmpNo(String empNo) {
 		this.empNo = empNo;
 	}
 
-
 	public String getEmail() {
 		return email;
 	}
-
 
 	public void setEmail(String email) {
 		this.email = email;
 	}
 
-
 	public String getPhone() {
 		return phone;
 	}
-
 
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
 
-
 	public String getDepartmentTitle() {
 		return departmentTitle;
 	}
-
 
 	public void setDepartmentTitle(String departmentTitle) {
 		this.departmentTitle = departmentTitle;
 	}
 
-
 	public String getJobName() {
 		return jobName;
 	}
-
 
 	public void setJobName(String jobName) {
 		this.jobName = jobName;
 	}
 
-
 	public int getSalary() {
 		return salary;
 	}
-
 
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
 
-
 	public String getDeptCode() {
 		return deptCode;
 	}
-
 
 	public void setDeptCode(String deptCode) {
 		this.deptCode = deptCode;
 	}
 
-
 	public String getJobCode() {
 		return jobCode;
 	}
-
 
 	public void setJobCode(String jobCode) {
 		this.jobCode = jobCode;
 	}
 
-
 	public String getSalLevel() {
 		return salLevel;
 	}
-
 
 	public void setSalLevel(String salLevel) {
 		this.salLevel = salLevel;
 	}
 
-
 	public double getBonus() {
 		return bonus;
 	}
-
 
 	public void setBonus(double bonus) {
 		this.bonus = bonus;
 	}
 
-
 	public int getManagerId() {
 		return managerId;
 	}
 
-
 	public void setManagerId(int managerId) {
 		this.managerId = managerId;
 	}
-
 
 	@Override
 	public String toString() {
@@ -211,6 +164,24 @@ public class Employee {
 				+ salary + ", deptCode=" + deptCode + ", jobCode=" + jobCode + ", salLevel=" + salLevel + ", bonus="
 				+ bonus + ", managerId=" + managerId + "]";
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 }

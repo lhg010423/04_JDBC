@@ -1,0 +1,5 @@
+zip파일을 같은 경로(04_JDBC)에 놓고
+Eclipse - File - Import - General - Existing Projects into Workspace
+- 두번째 Select archive file - Browse - zip파일 선택후 Finish
+
+검색창에 Windows 보안 - 바이러스 및 위협 방지 - 실시간 보호 끄기
