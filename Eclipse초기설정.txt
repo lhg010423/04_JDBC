@@ -1,3 +1,12 @@
+자바설치
+OpenJDK는 8, 11, 17 LTS인 버전중  최신버전인 17.0.2을 쓴다
+
+이클립스 설치
+이클립스는 EE버전을 쓴다
+Eclipes IDE for Enterprise Java and Web Developers
+
+
+< 이클립스 초기설정 >
 windows - Preferences - Colors and Fonts (font만쳐도 나옴) - Basic 맨아래 Text Font D2coding으로
 
 windows - Preferences - General - Show heap status 체크
