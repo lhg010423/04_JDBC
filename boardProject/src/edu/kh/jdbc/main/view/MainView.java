@@ -70,11 +70,7 @@ public class MainView {
 					default : System.out.println("\n===메뉴 번호만 입력해주세요===\n");
 					}
 					
-					
-					
 				}
-				
-				
 				
 			} catch (InputMismatchException e) {
 				System.out.println("\n*** 입력 형식이 올바르지 않습니다 ***\n");
@@ -82,10 +78,7 @@ public class MainView {
 				input = -1; // while문 종료 방지
 			}
 			
-			
 		} while(input != 0);
-		
-		
 	}
 	
 	
@@ -113,18 +106,10 @@ public class MainView {
 									Session.loginMember.getMemberName());
 			}
 			
-			
-			
 		} catch (Exception e) {
 			System.out.println("\n **** 로그인 중 예외발생 **** \n");
 			e.printStackTrace();
-			
 		}
-		
-		
-		
-		
-		
 		
 	}
 	
