@@ -7,7 +7,7 @@ Eclipes IDE for Enterprise Java and Web Developers
 
 
 < 이클립스 초기설정 >
-windows - Preferences - Colors and Fonts (font만쳐도 나옴) - Basic 맨아래 Text Font D2coding으로
+windows - Preferences - Colors and Fonts (font만쳐도 나옴) - Basic 맨아래 Text Font를 D2coding으로
 
 windows - Preferences - General - Show heap status 체크
 

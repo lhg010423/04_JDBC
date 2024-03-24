@@ -2,3 +2,7 @@ dao 보기
 
 stmt
 pstmt
+
+conn = DriverManager.getConnection(url, id, pw);
+stmt = conn.createStatement();
+rs = stmtexcuteQuery(sql);
