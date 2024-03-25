@@ -31,12 +31,9 @@ public class MainDAO {
 			// -> Properties 객체에
 			//	  key:value 형식으로 xml 내용이 저장됨
 			
-			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
-		
 	}
 
 
